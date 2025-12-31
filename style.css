@@ -1,1 +1,21 @@
 /* Estilizar o codigo com cores vivas e bonitas */
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*Estilzando a pagina*/ 
+body {
+  font-family:"Roboto", sans-serif;
+  background-color: rgb(59, 59, 59);
+  color: #fffffa;
+  text-align: center;
+}
+
+/*estilizando header*/
+
+header h1 {
+  font-weight: 900;
+}
+
