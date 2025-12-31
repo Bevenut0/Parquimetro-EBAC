@@ -8,14 +8,22 @@
 /*Estilzando a pagina*/ 
 body {
   font-family:"Roboto", sans-serif;
-  background-color: rgb(59, 59, 59);
-  color: #fffffa;
+  background-color: rgb(138, 63, 63);
+  color: #ffffff;
   text-align: center;
+}
+
+.background-grid {
+  background-size: 50px 50px;
+  background-image:
+    linear-gradient(to right, #e0e0e015 1px, transparent 1px),
+    linear-gradient(to bottom, #e0e0e015 1px, transparent 1px);
 }
 
 /*estilizando header*/
 
 header h1 {
   font-weight: 900;
+  font-size: 100px;
 }
 

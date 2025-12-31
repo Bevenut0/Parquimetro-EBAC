@@ -1,0 +1,55 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="Página-1" id="vvlY3-OHQnptN0JezBGo">
+    <mxGraphModel dx="872" dy="577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="k682Vg4_B1ajcyAq4ukI-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="k682Vg4_B1ajcyAq4ukI-1" target="k682Vg4_B1ajcyAq4ukI-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k682Vg4_B1ajcyAq4ukI-1" value="Parquimetro da ebac&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="30" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k682Vg4_B1ajcyAq4ukI-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="k682Vg4_B1ajcyAq4ukI-5" target="k682Vg4_B1ajcyAq4ukI-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k682Vg4_B1ajcyAq4ukI-5" value="O usuario vai colocar um valor(dinheiro) e nisso ira comprar tempo&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;dashed=1;dashPattern=8 8;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="370" y="130" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="k682Vg4_B1ajcyAq4ukI-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="k682Vg4_B1ajcyAq4ukI-7" target="k682Vg4_B1ajcyAq4ukI-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k682Vg4_B1ajcyAq4ukI-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="k682Vg4_B1ajcyAq4ukI-7" target="k682Vg4_B1ajcyAq4ukI-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k682Vg4_B1ajcyAq4ukI-7" value="O usuario digita um valor" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="127.5" width="170" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="k682Vg4_B1ajcyAq4ukI-9" value="Fazer o calculo do tempo&lt;div&gt;R$1 = 30minutos&lt;/div&gt;&lt;div&gt;R$1,75 = 60minutos&lt;/div&gt;&lt;div&gt;R$3 = 120minutos&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="292.5" width="200" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="k682Vg4_B1ajcyAq4ukI-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="k682Vg4_B1ajcyAq4ukI-14" target="k682Vg4_B1ajcyAq4ukI-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k682Vg4_B1ajcyAq4ukI-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="k682Vg4_B1ajcyAq4ukI-14" target="k682Vg4_B1ajcyAq4ukI-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k682Vg4_B1ajcyAq4ukI-14" value="Deixar o usuario escolher o valor e o tempo" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="290" width="180" height="87.5" as="geometry" />
+        </mxCell>
+        <mxCell id="k682Vg4_B1ajcyAq4ukI-16" value="Fazer o calculo e exibir o tempo correspondente e o troco" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="420" width="240" height="41.25" as="geometry" />
+        </mxCell>
+        <mxCell id="k682Vg4_B1ajcyAq4ukI-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="k682Vg4_B1ajcyAq4ukI-18" target="k682Vg4_B1ajcyAq4ukI-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k682Vg4_B1ajcyAq4ukI-18" value="Se o valor que o usuario passar for menor que o original" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="275" width="220" height="117.5" as="geometry" />
+        </mxCell>
+        <mxCell id="k682Vg4_B1ajcyAq4ukI-20" value="Impedir pagamento" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="290" width="180" height="87.5" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
