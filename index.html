@@ -1,49 +1,58 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parquimetro</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Parquimetro</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-</head>
+  <body class="background-grid">
+    <!--Cabeçalho-->
+    <header>
+      <h1>PARQUIMETRO</h1>
+      <p>
+        Escolha umas das nossa opções de tempo, nós diga o quanto ira pagar, e
+        ja falaremos o seu troco!
+      </p>
+    </header>
+    <main>
+      <!--Area de amostra de pagamentos-->
+      <section class="values-section">
+        <div class="box-values-section">
+          <h2>Valores:</h2>
+          <p>30 minutos = R$ 1,00</p>
+          <p>60 minutos = R$ 1,75</p>
+          <p>120 minutos = R$ 3,00</p>
+        </div>
+      </section>
 
-<body class="background-grid">
-  <!--Cabeçalho-->
-  <header>
-    <h1>PARQUIMETRO</h1>
-    <p>Escolha umas das nossa opções de tempo, nós diga o quanto ira pagar, e ja falaremos o seu troco!</p>
-  </header>
-  <main>
-  <!--Area de amostra de pagamentos-->
-    <section class="values-section">
-      <div class="box-values-section">
-      <h2>Valores:</h2>
-      <p>30 minutos = R$ 1,00</p>
-      <p>60 minutos = R$ 1,75</p>
-      <p>120 minutos = R$ 3,00</p>
-      </div>
-
-    </section>
-
-    <section>
-  <!--Pagamento-->
-      <h2>Area de Pagamento</h2>
-      <input placeholder="R$" type="number">
-      <select name="seletor" id="select_time"> <!--Opções-->
-        <option value="30">30 minutos</option>
-        <option value="60">60 minutos</option>
-        <option value="120">120 minutos</option>
-      </select>
-      <div>
-        <button>Enviar</button>
-      </div>
-    </section>
-  </main>
-  <script src=""></script>
-</body>
-
+      <section>
+        <!--Pagamento-->
+        <h2>Area de Pagamento</h2>
+        <input type="number" id="pagar" />
+        <select onchange="trocar()" name="seletor" id="select_time">
+          <!--Opções-->
+          <option value="0"></option>
+          <option value="30">30 minutos</option>
+          <option value="60">60 minutos</option>
+          <option value="120">120 minutos</option>
+        </select>
+        <div>
+          <button id="submit">Enviar</button>
+        </div>
+        <p id="texto"></p>
+      </section>
+    </main>
+    <footer>
+      <p>Todos direitos reservados para Victor Gabriel Bevenuta</p>
+    </footer>
+  </body>
+  <script src="main.js"></script>
 </html>

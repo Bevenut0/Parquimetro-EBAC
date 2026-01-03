@@ -5,18 +5,18 @@
   box-sizing: border-box;
 }
 
-/*Estilzando a pagina*/ 
+/*Estilzando a pagina*/
 body {
-  font-family:"Roboto", sans-serif;
-  background-color: rgb(138, 63, 63);
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(24, 24, 24);
   color: #ffffff;
   text-align: center;
+  transition: 0.5s;
 }
 
 .background-grid {
   background-size: 50px 50px;
-  background-image:
-    linear-gradient(to right, #e0e0e015 1px, transparent 1px),
+  background-image: linear-gradient(to right, #e0e0e015 1px, transparent 1px),
     linear-gradient(to bottom, #e0e0e015 1px, transparent 1px);
 }
 
@@ -27,3 +27,45 @@ header h1 {
   font-size: 100px;
 }
 
+section h2 {
+  font-size: 50px;
+}
+
+section p {
+  font-size: 30px;
+}
+
+section input,
+select {
+  font-size: 35px;
+  border: none;
+  border-radius: 10px;
+}
+
+section button {
+  padding: 5px 15px;
+  font-size: 30px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+section button:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+  background-color: rgb(88, 252, 142);
+
+}
+section button:active {
+  transform: scale(1.1);
+  background-color: rgb(8, 165, 60);
+}
+
+footer {
+  background-color: #0000003f;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  text-align: center;
+}
